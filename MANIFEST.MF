@@ -1,4 +1,4 @@
 Manifest-Version: 1.0
 Created-By: Markus Binsteiner
 Main-Class: au.org.arcs.auth.swiss_proxy_knife.SwissProxyKnife
-Class-Path: bcprov-jdk15-140.jar 
+Class-Path: bcprov.jar bcprov-jdk15-140.jar 
