@@ -8,13 +8,13 @@
     <parent>
         <artifactId>proxy</artifactId>
         <groupId>au.org.arcs.auth</groupId>
-        <version>0.2</version>
+        <version>0.3</version>
     </parent>
 
     <groupId>au.org.arcs.auth</groupId>
     <artifactId>swiss-proxy-knife</artifactId>
     <name>swiss-proxy-knife</name>
-    <version>0.2</version>
+    <version>0.3</version>
 
     <dependencies>
         <dependency>
