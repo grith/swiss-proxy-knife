@@ -42,7 +42,7 @@
         <dependency>
         	<groupId>au.org.arcs.shibboleth</groupId>
         	<artifactId>slcs-client</artifactId>
-        	<version>0.0.1-SNAPSHOT</version>
+        	<version>0.2-stable</version>
         </dependency>
         <dependency>
         	<groupId>au.org.arcs.auth</groupId>
