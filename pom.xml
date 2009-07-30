@@ -8,7 +8,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<artifactId>proxy</artifactId>
+		<artifactId>jgridauth</artifactId>
 		<groupId>au.org.arcs.auth</groupId>
 		<version>0.4-SNAPSHOT</version>
 	</parent>
