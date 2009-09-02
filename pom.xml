@@ -67,6 +67,36 @@
 
 	<build>
 		<plugins>
+
+			<plugin>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<configuration>
+
+							<descriptors>
+								<descriptor>swiss-proxy-knife.assembly.xml</descriptor>
+							</descriptors>
+							<finalName>swiss</finalName>
+							<archive>
+
+								<index>true</index>
+								<manifest>
+									<mainClass>au.org.arcs.auth.swiss_proxy_knife.SwissProxyKnife</mainClass>
+								</manifest>
+								<manifestEntries>
+									<Class-Path>bcprov.jar bcprov-jdk15-143.jar</Class-Path>
+								</manifestEntries>
+							</archive>
+
+						</configuration>
+						<goals>
+							<goal>attached</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
 			<plugin>
 				<groupId>org.codehaus.groovy.maven</groupId>
 				<artifactId>gmaven-plugin</artifactId>
