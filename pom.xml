@@ -25,8 +25,7 @@
 		</repository>
 		<repository>
 			<id>ARCS Snapshots</id>
-			<url>http://code.arcs.org.au/nexus/content/groups/public-snapshots
-			</url>
+			<url>http://code.arcs.org.au/nexus/content/groups/public-snapshots</url>
 		</repository>
 	</repositories>
 
@@ -100,7 +99,7 @@
 			<plugin>
 				<groupId>org.codehaus.groovy.maven</groupId>
 				<artifactId>gmaven-plugin</artifactId>
-				<version>1.0-rc-5</version>
+				<version>1.0</version>
 				<executions>
 					<execution>
 						<goals>
@@ -114,5 +113,12 @@
 			</plugin>
 		</plugins>
 	</build>
+	
+	  	<pluginRepositories>
+		<pluginRepository>
+			<id>ARCS</id>
+			<url>http://code.arcs.org.au/nexus/content/groups/public</url>
+		</pluginRepository>
+	</pluginRepositories>
 
 </project>
