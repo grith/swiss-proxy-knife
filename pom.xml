@@ -13,10 +13,8 @@
 		<version>0.4-SNAPSHOT</version>
 	</parent>
 
-	<groupId>au.org.arcs.auth</groupId>
 	<artifactId>swiss-proxy-knife</artifactId>
 	<name>swiss-proxy-knife</name>
-	<version>0.4-SNAPSHOT</version>
 
 	<repositories>
 		<repository>
@@ -33,7 +31,7 @@
 		<dependency>
 			<groupId>org.codehaus.groovy.maven.runtime</groupId>
 			<artifactId>gmaven-runtime-1.6</artifactId>
-			<version>1.0-rc-5</version>
+			<version>1.0</version>
 		</dependency>
 
 		<dependency>
@@ -53,14 +51,16 @@
 			<version>0.9.94</version>
 		</dependency>
 		<dependency>
-			<groupId>au.org.arcs.shibboleth</groupId>
-			<artifactId>slcs-client</artifactId>
-			<version>0.3</version>
-		</dependency>
-		<dependency>
 			<groupId>au.org.arcs.auth</groupId>
 			<artifactId>simpleProxyLib</artifactId>
 			<version>0.4-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>au.org.arcs.auth</groupId>
+			<artifactId>arcs-gsi</artifactId>
+			<version>1.1</version>
+			<type>jar</type>
+			<scope>compile</scope>
 		</dependency>
 	</dependencies>
 
