@@ -9,7 +9,7 @@
 	<parent>
 		<artifactId>jgridauth</artifactId>
 		<groupId>au.org.arcs.auth</groupId>
-		<version>0.5-SNAPSHOT</version>
+		<version>0.4-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>swiss-proxy-knife</artifactId>
@@ -52,19 +52,19 @@
 		<dependency>
 			<groupId>au.org.arcs.auth</groupId>
 			<artifactId>simpleProxyLib</artifactId>
-			<version>0.5-SNAPSHOT</version>
+			<version>0.4-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>au.org.arcs.auth</groupId>
 			<artifactId>arcs-gsi</artifactId>
-			<version>1.1</version>
+			<version>1.1-SNAPSHOT</version>
 			<type>jar</type>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>au.org.arcs.commons</groupId>
 			<artifactId>arcs-jcommons</artifactId>
-			<version>1.0</version>
+			<version>1.0-SNAPSHOT</version>
 			<type>jar</type>
 			<scope>compile</scope>
 			<exclusions>
