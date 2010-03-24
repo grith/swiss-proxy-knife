@@ -30,7 +30,7 @@
 					<exclude>**/DEPENDENCIES</exclude>
 					<exclude>**/LICENSE</exclude>
 					<exclude>**/NOTICE</exclude>
-					<exclude>log4j.properties</exclude>
+					<exclude>**/log4j.properties</exclude>
 				</excludes>
 			</unpackOptions>
 		</dependencySet>
@@ -38,7 +38,7 @@
 
 	<files>
 		<file>
-			<source>log4j.properties</source>
+			<source>src/main/resources/log4j.properties</source>
 			<outputDirectory></outputDirectory>
 		</file>
 	</files>
