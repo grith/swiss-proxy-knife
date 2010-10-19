@@ -9,7 +9,7 @@
 	<parent>
 		<artifactId>jgridauth</artifactId>
 		<groupId>au.org.arcs.auth</groupId>
-		<version>0.5.1-SNAPSHOT</version>
+		<version>0.5.1</version>
 	</parent>
 
 	<artifactId>swiss-proxy-knife</artifactId>
@@ -52,7 +52,7 @@
 		<dependency>
 			<groupId>au.org.arcs.auth</groupId>
 			<artifactId>simpleProxyLib</artifactId>
-			<version>0.5.1-SNAPSHOT</version>
+			<version>0.5.1</version>
 		</dependency>
 		<dependency>
 			<groupId>au.org.arcs.auth</groupId>
