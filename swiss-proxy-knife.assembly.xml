@@ -31,6 +31,10 @@
 					<exclude>**/LICENSE</exclude>
 					<exclude>**/NOTICE</exclude>
 					<exclude>**/log4j.properties</exclude>
+					<exclude>arcs/__init__.py</exclude>
+					<exclude>META-INF/services/javax.script.ScriptEngineFactory</exclude>
+					<exclude>META-INF/maven/jline/jline/pom.properties</exclude>
+					<exclude>META-INF/maven/jline/jline/pom.xml</exclude>
 				</excludes>
 			</unpackOptions>
 		</dependencySet>
