@@ -45,6 +45,10 @@
 			<source>src/main/resources/log4j.properties</source>
 			<outputDirectory></outputDirectory>
 		</file>
+		<file>
+			<source>__init__.py</source>
+			<outputDirectory>/arcs</outputDirectory>
+		</file>		
 	</files>
 
 
