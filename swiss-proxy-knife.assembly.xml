@@ -15,7 +15,7 @@
 			<useProjectArtifact>true</useProjectArtifact>
 			<outputDirectory>/</outputDirectory>
 			<includes>
-				<include>au.org.arcs.auth:swiss-proxy-knife</include>
+				<include>grith:swiss-proxy-knife</include>
 			</includes>
 			<excludes>
 				<exclude>junit:junit</exclude>
@@ -47,9 +47,15 @@
 		</file>
 		<file>
 			<source>__init__.py</source>
+			<outputDirectory>/gsindl</outputDirectory>
+		</file>	
+		<file>
+			<source>__init__.py</source>
 			<outputDirectory>/arcs</outputDirectory>
-		</file>		
+		</file>	
+
 	</files>
+	
 
 
 </assembly>

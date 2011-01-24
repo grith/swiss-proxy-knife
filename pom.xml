@@ -7,8 +7,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<artifactId>jgridauth</artifactId>
-		<groupId>au.org.arcs.auth</groupId>
+		<artifactId>jgrith</artifactId>
+		<groupId>grith</groupId>
 		<version>0.5.5-SNAPSHOT</version>
 	</parent>
 
@@ -56,7 +56,7 @@
 <!--			<version>0.9.94</version>-->
 <!--		</dependency>-->
 		<dependency>
-			<groupId>au.org.arcs.auth</groupId>
+			<groupId>grith</groupId>
 			<artifactId>simpleProxyLib</artifactId>
 			<version>${project.version}</version>
 		</dependency>
@@ -80,7 +80,7 @@
 
 								<index>true</index>
 								<manifest>
-									<mainClass>au.org.arcs.auth.swiss_proxy_knife.SwissProxyKnife</mainClass>
+									<mainClass>grith.SwissProxyKnife</mainClass>
 								</manifest>
 								<manifestEntries>
 									<Class-Path>bcprov.jar bcprov-jdk15-143.jar</Class-Path>
