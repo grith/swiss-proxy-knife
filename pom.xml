@@ -75,7 +75,8 @@
 							<descriptors>
 								<descriptor>swiss-proxy-knife.assembly.xml</descriptor>
 							</descriptors>
-							<finalName>swiss</finalName>
+							<finalName>swiss-proxy-knife</finalName>
+							<appendAssemblyId>false</appendAssemblyId>
 							<archive>
 
 								<index>true</index>
