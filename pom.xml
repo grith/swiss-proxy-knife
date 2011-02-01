@@ -6,13 +6,9 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<parent>
-		<artifactId>jgrith</artifactId>
-		<groupId>grith</groupId>
-		<version>0.5.5-SNAPSHOT</version>
-	</parent>
-
 	<artifactId>swiss-proxy-knife</artifactId>
+	<groupId>grith</groupId>
+	<version>0.5.5-SNAPSHOT</version>
 	<name>swiss-proxy-knife</name>
 
 	<repositories>
@@ -25,6 +21,32 @@
 			<url>http://code.arcs.org.au/nexus/content/groups/public-snapshots</url>
 		</repository>
 	</repositories>
+
+
+	<scm>
+		<connection>scm:git:git://github.com/grith/swiss-proxy-knife.git
+		</connection>
+		<url>scm:git:git@github.com:grith/swiss-proxy-knife.git
+		</url>
+	</scm>
+
+	<distributionManagement>
+		<repository>
+			<id>arcs.release</id>
+			<name>ARCS Release Repository</name>
+			<url>http://code.arcs.org.au/nexus/content/repositories/releases
+			</url>
+			<uniqueVersion>false</uniqueVersion>
+		</repository>
+		<snapshotRepository>
+			<id>arcs.snapshot</id>
+			<name>ARCS SNAPSHOT Repository</name>
+			<url>http://code.arcs.org.au/nexus/content/repositories/snapshots
+			</url>
+			<uniqueVersion>false</uniqueVersion>
+		</snapshotRepository>
+	</distributionManagement>
+
 
 	<dependencies>
 		<dependency>
